@@ -1,0 +1,83 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+}
+.left{
+    width: 20vw;
+    height: 100vh;
+    border: 1px soild black;
+}
+img{
+    height: 8em;
+    border-radius: 50%;
+}
+.right{
+    width: 80vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+.right1{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-top{
+    background-color: purple;
+}
+.right2{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top1{
+    height: 30vh;
+    width: 50vh;
+    background-color: white;
+    box-shadow: 0 0 2em gray;
+}
+.top2{
+    height: 30vh;
+    width: 50vh;
+    background-color: white;
+    box-shadow: 0 0 2em gray;
+}
+.top3{
+    height: 30vh;
+    width: 50vh;
+    background-color: white;
+    box-shadow: 0 0 2em gray;
+}
+.right3{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding: 10px;
+}
+.top4{
+    width: 50vw;
+    height: 40vh;
+    background-color: white;
+    box-shadow: 0 0 2em gray;
+}
+.top5{
+    width:25vw;
+    height: 40vh;
+    background-color: white;
+    box-shadow: 0 0 2em gray;
+}
+hr{
+    background-color: aqua;
+    height: 2px;
+}
+.btn-block1{
+    width: 15vw;
+    text-align: center;
+
+}

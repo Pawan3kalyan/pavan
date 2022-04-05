@@ -1,0 +1,27 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+.btn-block{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn-block1{
+    width: 100%;
+
+}
+.btn-block2{
+    width: 100%;
+    
+}
