@@ -18,6 +18,7 @@ img{
     width: 80vw;
     height: 100vh;
     border: 1px solid black;
+    overflow: auto;
 }
 .right1{
     display: flex;

@@ -1,0 +1,52 @@
+<p>apps works!</p>
+<h6>Calcuator</h6>
+<input type="number"[(ngModel)]="num1">
+<input type="number"[(ngModel)]="num2">
+<button (click)="sum()">+</button>
+<button (click)="add()">-</button>
+<hr>
+<h3>RECENTANGLE</h3>
+<input type="number"[(ngModel)]="num1">
+<input type="number"[(ngModel)]="num2">
+<button (click)="area()">area</button>
+<p>area:{{num3}}</p>
+<hr>
+<h1>EVENT REGISTRATION</h1>
+<input type="text"[(ngModel)]="name">
+<button (click)="register()">REGISTER</button>
+<ul>
+    <li *ngFor="let name of names">
+        {{name}}
+    </li>
+</ul>
+<hr>
+<label>product</label><input type="text"[(ngModel)]="product">
+<label>quantity</label><input type="number"[(ngModel)]="quantity">
+<label>price</label><input type="number"[(ngModel)]="price">
+<button (click)="ADDTOCART()">ADDTOCART</button>
+<div class="top">
+<table class="table">
+    <tbody>
+        <tr *ngFor="let product of users">
+            <td>{{product.product}}</td>
+            <td>{{product.quantity}}</td>
+            <td>{{product.price}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<hr>
+<label>city</label><input type="text"[(ngModel)]="city">
+<label>email</label><input type="text"[(ngModel)]="email">
+<label>phone</label><input type="text"[(ngModel)]="phone">
+<button (click)="SIGNUP()">SIGNUP</button>
+<table>
+    <tbody>
+        <tr *ngFor="let city of nums">
+            <td>{{city.city}}</td>
+            <td>{{city.email}}</td>
+            <td>{{city.phone}}</td>
+        </tr>
+    </tbody>
+</table>
+

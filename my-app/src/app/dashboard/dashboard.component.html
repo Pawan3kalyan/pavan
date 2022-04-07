@@ -5,30 +5,15 @@
     <h6>pawankalyansamudrala@gmail.com</h6>
     <hr>
     <h6><i class="fas fa-bars"></i>DASHBOARD</h6><BR>
-    <H6>ACCOUNT PROFILE</H6><BR>
-    <h6>EXERCISE PLANS</h6><BR>
-    <h6> DIET PLANS</h6><BR>
-    <h6>SUBSCRIPTION</h6><BR>
+    <H6 routerLink="Interpolation">INTERPOLATION</H6><BR>
+    <h6 routerLink="Eventbinding">EVENT BINDING</h6><BR>
+    <h6 routerLink="apps"> APPS</h6><BR>
+    <h6 routerLink="vehiclesummary">VEHICLE SUMMARY</h6><BR>
     <h6>EXTRA SERVICES</h6>
     <hr>
-    <button type="submit" class="btn btn-primary">LOGOUT</button>
+    <button routerLink="/login" type="submit" class="btn btn-primary">LOGOUT</button>
     </div>
     <div class="right">
-        <div class="right1">
-            <h3>PERSONAL PROGRESS</h3>
-            <button type="submit" class="btn btn-primary btn-top">conatct supporter</button>
-        </div>
-        <div class="right2">
-            <div class="top1"></div>
-            <div class="top2"></div>
-            <div class="top3"></div>
-        </div>
-        <div class="right3">
-            <div class="top4"></div>
-            <div class="top5"></div>
-        </div>
-
-
+        <router-outlet></router-outlet>
     </div>
-
 </div>

@@ -1,0 +1,29 @@
+<table>
+    <thead>
+        <tr>
+            <th>Vehicle</th>
+            <th>manufacturer</th>
+            <th>model</th>
+            <th>type</th>
+            <th>fuel</th>
+            <th>color</th>
+            <th>image</th>
+            <th>id</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+        <ng-container *ngIf="(user.manufacturer=='Ford'|| user.manufacturer=='Honda') && user.fuel=='Electric'">
+        <td>{{user.Vehicle}}</td>
+        <td>{{user.manufacturer}}</td>
+        <td>{{user.model|json}}</td>
+        <td>{{user.type}}</td>
+        <td [ngClass]="user.fuel=='Electric'?'green':(user.fuel=='Hybrid'?'yellow':(user.fuel=='Diesel'?'black':'fuel'))">{{user.fuel}}
+        </td>
+        <td>{{user.color}}</td>
+        <td><img src="{{user.image}}" width="50em" height="50em"></td>
+        <td>{{user.id}}</td>    
+        </ng-container>
+        </tr>
+    </tbody>
+</table>
